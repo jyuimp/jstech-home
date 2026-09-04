@@ -18,7 +18,7 @@ export function Header() {
             <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-sm font-bold text-white">
               JS
             </span>
-            <span className="text-lg font-bold tracking-tight text-foreground">
+            <span className="text-xl font-bold tracking-tight text-foreground">
               {SITE.name}
               <span className="ml-1 text-xs font-normal text-muted">임베디드 개발 파트너</span>
             </span>
@@ -39,9 +39,23 @@ export function Header() {
           <div className="hidden items-center gap-3 md:flex">
             <Link
               href="tel:01024843208"
-              className="flex items-center gap-2 text-sm font-medium text-foreground"
+              className="flex items-center gap-2 text-base font-semibold text-foreground"
             >
-              <Phone className="h-4 w-4 text-primary" />
+              <span aria-hidden="true" className="flex h-5 items-end gap-0.5">
+                {[
+                  { h: "h-3", d: "0s" },
+                  { h: "h-5", d: "0.15s" },
+                  { h: "h-4", d: "0.3s" },
+                  { h: "h-3.5", d: "0.45s" },
+                ].map((bar) => (
+                  <span
+                    key={bar.d}
+                    className={`w-1 ${bar.h} origin-bottom animate-bounce rounded-full bg-primary`}
+                    style={{ animationDelay: bar.d }}
+                  />
+                ))}
+              </span>
+              <Phone className="h-5 w-5 text-primary" />
               {SITE.phone}
             </Link>
             <Button href="/contact" size="sm">
