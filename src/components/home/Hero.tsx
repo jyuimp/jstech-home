@@ -4,8 +4,11 @@ import { Button } from "@/components/ui/button";
 
 const techTags = ["STM32", "ESP32", "ATmel", "ARM Cortex", "C", "C++", "Qt"];
 
-const HERO_IMAGE_SRC =
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80";
+const CODE_IMAGE_SRC =
+  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80";
+
+const PCB_IMAGE_SRC =
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80";
 
 export function Hero() {
   return (
@@ -65,8 +68,8 @@ export function Hero() {
           <div className="relative mx-auto w-full max-w-lg lg:mx-0 lg:max-w-none">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl shadow-primary/10">
               <Image
-                src={HERO_IMAGE_SRC}
-                alt="임베디드 회로 기판 - 정밀 PCB 회로 디테일 사진"
+                src={CODE_IMAGE_SRC}
+                alt="프로그래밍 코드 화면 - 소프트웨어 개발 환경"
                 fill
                 sizes="(max-width: 1023px) 100vw, 45vw"
                 className="object-cover"
@@ -77,6 +80,23 @@ export function Hero() {
                 className="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-secondary/5"
               />
             </div>
+
+            <div
+              className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 w-2/5 aspect-[3/2] overflow-hidden rounded-xl border-2 border-white shadow-xl"
+            >
+              <Image
+                src={PCB_IMAGE_SRC}
+                alt="임베디드 회로 기판 - 정밀 PCB 회로 디테일"
+                fill
+                sizes="(max-width: 1023px) 35vw, 18vw"
+                className="object-cover"
+              />
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-gradient-to-br from-secondary/10 via-transparent to-primary/5"
+              />
+            </div>
+
             <div
               aria-hidden="true"
               className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-primary to-secondary lg:mx-0"
