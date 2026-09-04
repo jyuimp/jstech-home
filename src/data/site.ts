@@ -18,6 +18,6 @@ export const NAV_ITEMS = [
   { label: "회사소개", href: "/about" },
   { label: "사업영역", href: "/services" },
   { label: "프로젝트", href: "/projects" },
-  { label: "입문 가이드", href: "/learn" },
+  { label: "입문·비전문가", href: "/learn" },
   { label: "문의", href: "/contact" },
 ] as const;

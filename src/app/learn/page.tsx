@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "입문 가이드",
+  title: "입문·비전문가",
   description:
-    "임베디드가 무엇인지, 아이디어를 제품으로 만드는 방법, C/C++ 기초까지 — JSTech가 전하는 임베디드 개발 입문 가이드.",
+    "임베디드가 무엇인지, 아이디어를 제품으로 만드는 방법, C/C++ 기초까지 — JSTech가 전하는 임베디드 개발 입문·비전문가 가이드.",
 };
 
 const guides = [
@@ -68,7 +68,7 @@ export default function LearnPage() {
     <>
       <PageHero
         eyebrow="Learn"
-        title="입문 · 비전문가 가이드"
+        title="입문·비전문가 가이드"
         description="임베디드에 대해 잘 몰라도 괜찮습니다. 쉽게 시작하세요."
       />
 
@@ -153,12 +153,12 @@ export default function LearnPage() {
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary-light">
                   <GraduationCap className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="text-lg font-bold text-foreground">코딩지도사(코딩 강사) 과정</h3>
+                <h3 className="text-lg font-bold text-foreground">코딩지도사(코딩 강사) 수업</h3>
               </div>
               <p className="mt-4 flex-1 text-sm leading-relaxed text-muted">
-                코딩 교육 지도사 양성 과정으로, 임베디드·코딩 교육을 이끌어갈 강사를
-                체계적으로 육성합니다. 교육 이수 후 학교·기관에서 직접 수업을 진행하며
-                활동할 수 있습니다.
+                코딩지도사 자격증을 보유한 강사가 임베디드·코딩 교육을 진행합니다.
+                학생 눈높이에 맞춰 기초부터 차근차근 지도하므로 비전공자도 쉽게
+                시작할 수 있습니다.
               </p>
             </div>
 
@@ -172,7 +172,8 @@ export default function LearnPage() {
               <p className="mt-4 flex-1 text-sm leading-relaxed text-muted">
                 학교와 기관에서 진행하는 방과후 임베디드·코딩 프로그램입니다. 학생들이
                 직접 회로를 다루고 코드를 작성하며 창의력과 문제 해결 능력을 키울 수
-                있도록 구성했습니다.
+                있도록 구성했습니다. 방과후 코딩 수업도 가능하니, 필요하시면 연락
+                주시기 바랍니다.
               </p>
             </div>
           </div>

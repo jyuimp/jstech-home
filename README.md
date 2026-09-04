@@ -33,7 +33,7 @@ npm run lint     # ESLint
 | `/services/[slug]` | 사업영역 상세 (펌웨어 / IoT / 하드웨어 / 통합 / 양산) |
 | `/projects` | 프로젝트 목록 (산업 · 기술 · 단계 필터) |
 | `/projects/[slug]` | 프로젝트 상세 |
-| `/learn` | 입문 가이드 |
+| `/learn` | 입문·비전문가 |
 | `/learn/*` | 가이드 상세 (임베디드란 · 제품화 · C/C++) |
 | `/contact` | 문의 (클라이언트 폼) |
 | `/privacy`, `/terms` | 개인정보처리방침 · 이용약관 |
