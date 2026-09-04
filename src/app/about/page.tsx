@@ -24,7 +24,7 @@ import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
   title: "회사소개",
-  description: `11년+ 임베디드 개발 전문 기업 JSTech. ${companyFacts.mainBusiness}.`,
+  description: `다년간 임베디드 개발 경력의 JSTech. ${companyFacts.mainBusiness}.`,
 };
 
 const capabilities = [
@@ -80,7 +80,7 @@ function CEOMessage() {
               &ldquo;기획부터 양산까지, 한 팀이 끝까지 책임집니다.&rdquo;
             </p>
             <p className="leading-relaxed text-muted">
-              2015년 설립 이래 11년간 수백 건의 임베디드 프로젝트를 성공적으로
+              2015년 설립 이래 수백 건의 임베디드 프로젝트를 성공적으로
               수행하며, STM32·ESP32·ATmel·ARM Cortex 등 다양한 MCU 플랫폼에서
               안정적이고 최적화된 솔루션을 제공해 왔습니다.
             </p>
@@ -110,7 +110,7 @@ function Timeline() {
         <SectionHeading
           eyebrow="History"
           title="회사 연혁"
-          description="11년간 이어온 성장의 발자취"
+          description="다년간 이어온 성장의 발자취"
         />
         <div className="relative mt-16">
           <div className="absolute left-4 top-0 bottom-0 w-px bg-line md:left-1/2 md:-translate-x-px" />

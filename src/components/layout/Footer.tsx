@@ -73,7 +73,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-slate-400">
               <li>설립: {SITE.established}</li>
               <li>대표: {SITE.ceo}</li>
-              <li>경력: {SITE.careers} ({SITE.years})</li>
+              <li>경력: {SITE.years}</li>
             </ul>
             <Link
               href="/contact"

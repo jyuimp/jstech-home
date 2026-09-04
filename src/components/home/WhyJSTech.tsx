@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Award, Calculator, Layers, LifeBuoy } from "lucide-react";
 
 const counterItems = [
-  { icon: Award, label: "임베디드 개발 경력", value: 11, suffix: "년+" },
+  { icon: Award, label: "임베디드 개발 경력", value: 0, text: "다년간" },
   { icon: Calculator, label: "투명한 온라인 견적", value: 0, text: "차별화" },
   { icon: Layers, label: "지원 MCU 플랫폼", value: 4, suffix: "종" },
   { icon: LifeBuoy, label: "원스톱 개발 프로세스", value: 0, text: "기획→양산" },
@@ -90,7 +90,7 @@ export function WhyJSTech() {
             왜 JSTech인가?
           </h2>
           <p className="mt-4 text-lg text-muted">
-            11년의 경험으로 검증된 전문성과 투명한 협업 방식.
+            다년간의 경험으로 검증된 전문성과 투명한 협업 방식.
           </p>
         </div>
 

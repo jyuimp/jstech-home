@@ -2,14 +2,14 @@ export const SITE = {
   name: "JSTech",
   fullName: "제이에스테크",
   tagline: "기획부터 양산까지, 원스톱 임베디드 개발 파트너",
-  heroMessageA: "11년, 수백 개의 프로젝트, 한결같은 품질",
+  heroMessageA: "수백 개의 프로젝트, 한결같은 품질",
   heroMessageB: "기획부터 양산까지, JSTech가 함께합니다.",
   established: "2015.02.02",
   ceo: "전용운",
   phone: "010-2484-3208",
   email: "jyuimp@empas.com",
-  years: "11년+",
-  careers: "2015~2026",
+  years: "다년간",
+  careers: "설립 이래",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://jstech-home.vercel.app",
 } as const;
 

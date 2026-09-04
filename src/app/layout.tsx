@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "11년+ 임베디드 개발 경력의 JSTech. STM32·ESP32·ATmel·ARM Cortex 펌웨어 개발, IoT 솔루션, HW/SW 통합 개발, 양산 지원까지 원스톱으로 제공합니다.",
+    "다년간 임베디드 개발 경력의 JSTech. STM32·ESP32·ATmel·ARM Cortex 펌웨어 개발, IoT 솔루션, HW/SW 통합 개발, 양산 지원까지 원스톱으로 제공합니다.",
   keywords: [
     "임베디드 개발",
     "임베디드 외주",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} | 원스톱 임베디드 개발 파트너`,
     description:
-      "11년+ 임베디드 개발 경력. 펌웨어 개발, IoT 솔루션, HW/SW 통합, 양산 지원.",
+      "다년간 임베디드 개발 경력. 펌웨어 개발, IoT 솔루션, HW/SW 통합, 양산 지원.",
   },
 };
 
